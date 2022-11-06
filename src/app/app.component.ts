@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'signup';
+  email = 'vlockn@gmail.com';
+  password = 123456;
+
+  constructor(){
+    this.email;
+    this.password;
+  }
 }
